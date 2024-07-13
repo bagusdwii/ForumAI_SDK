@@ -9,7 +9,7 @@ model_market = Mixtral8x7BModelMarketTestnet(
 
 
 #Machine Learning Inference Request
-chat = [{"role": "system", "content": "You are a helpful assistant!"}, {"role": "user", "content": "What is 30+1070?"}]
+chat = [{"role": "system", "content": "You are a helpful assistant!"}, {"role": "user", "content": "What is 2+2?"}]
 response = model_market.generate(3000, chat)
 print(response)
 
